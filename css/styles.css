@@ -68,7 +68,7 @@
     width: 100px;
     border-radius: 5px;
 }
-.btn{
+.btn5{
     height: 50px;
     border: none;
     outline: none;
@@ -78,7 +78,7 @@
     border-radius: 3px;
     font-weight: bold;
 }
-.btn:hover{
+.btn5:hover{
     height: 50px;
     border: none;
     outline: none;
@@ -90,3 +90,21 @@
     transition: 0.5s;
     border: 1px black solid;
 }
+.h-search-form{
+    width: 650px;
+}
+.btn-1:hover{
+    color:white;
+    background-color: black;
+    transition: 0.5s;
+    border: none;
+    
+}
+.btn-2:hover{
+    color:black;
+    background-color: white;
+    transition: 0.5s;
+    outline: none;
+    
+}
+
