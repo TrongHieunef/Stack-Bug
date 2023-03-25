@@ -65,10 +65,6 @@
     color: white;;
     transition: 0.5s;
 }
-.navbar-nav {
-    margin-right: 40px;
-    float: right;
-}
 .btn3:hover{
     background-color: black;
     color: white;;
