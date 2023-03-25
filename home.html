@@ -16,7 +16,7 @@
     </head>
     <body >
         <!--  Statr Navbar -->
-        <nav class="nav navbar-expand-sm navbar-light bg-light mb-0 ">
+        <nav class="nav navbar-expand-sm navbar-light bg-light mb-0  w-100">
             <a href="home.html" class="navbar-brand mb-0 ">
                 <img src="img/logoremove.png" width="40" height="40 ">
                 Stack
@@ -45,19 +45,19 @@
                             Tags
                         </a>
                     </li>
-                    <div class="h-search-form">
-                        <form action="#">
-                            <input type="search" class="form-control m-lg-0 "
-                                placeholder=" Searching...">
-                        </form>
-                    </div>
-                    <div class="login-btn mx-2 border rounded-3 ">
-                        <a href="login.html" class="btn btn-light btn-1 ">Log in</a>
-                    </div>
-                    <div class="signup-btn border rounded-3 ">
-                        <a href="signup.html" class="btn btn-register-1
-                            btn-dark btn-2">Sign up</a>
-                    </div>
+                    <form class="search-form d-flex mb-lg-0">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark input-sm " type="submit">Search</button>
+                      </form>
+                    <div class="click nav-item d-flex ms-auto mb-2 mb-lg-0 ">
+                        <div class="login-btn mx-2 border rounded-3 ">
+                            <a href="login.html" class="btn btn-light btn-1 ">Log in</a>
+                        </div>
+                        <div class="signup-btn border rounded-3 ">
+                            <a href="signup.html" class="btn btn-register-1
+                                btn-dark btn-2">Sign up</a>
+                        </div>
+                    </div>  
                 </ul>
             </div>
         </nav>

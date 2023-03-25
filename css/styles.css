@@ -35,6 +35,7 @@
     background-color: white;
     border: 1px solid black;
 }
+
 .link{
     text-decoration: none;
 }
@@ -63,6 +64,10 @@
     background-color: rgb(45, 90, 187);
     color: white;;
     transition: 0.5s;
+}
+.navbar-nav {
+    margin-right: 40px;
+    float: right;
 }
 .btn3:hover{
     background-color: black;
@@ -96,8 +101,8 @@
     transition: 0.5s;
     border: 1px black solid;
 }
-.h-search-form{
-    width: 650px;
+.search-form{
+    width: 700px;
 }
 .btn-1:hover{
     color:white;
@@ -113,4 +118,3 @@
     outline: none;
     
 }
-.card-tittle{}
