@@ -98,7 +98,7 @@
     border: 1px black solid;
 }
 .search-form{
-    width: 700px;
+    width: 650px;
 }
 .btn-1:hover{
     color:white;
@@ -113,4 +113,18 @@
     transition: 0.5s;
     outline: none;
     
+}
+.srcollbar{   
+    color: #3B3C3E;
+    font-size: 13px;
+
+}
+
+.srcollbar{
+    height:700px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.title{
+    font-size: 20px;
 }
