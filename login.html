@@ -36,6 +36,11 @@
                         </a>
                     </li>
                     <li class="nav-item active">
+                        <a href="ask.html" class="nav-link active">
+                            Post
+                        </a>
+                    </li>
+                    <li class="nav-item active">
                         <a href="post.html" class="nav-link">
                              Question
                         </a>
@@ -45,17 +50,23 @@
                             Tags
                         </a>
                     </li>
-                    <form class="search-form d-flex mb-lg-0">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark input-sm " type="submit">Search</button>
-                      </form>
-                    <div class="login-btn mx-2 border rounded-3 ">
-                        <a href="login.html" class="btn btn-light btn-1 ">Log in</a>
-                    </div>
-                    <div class="signup-btn border rounded-3 ">
-                        <a href="signup.html" class="btn btn-register-1
-                            btn-dark btn-2" >Sign up</a>
-                    </div>
+                    <li class="nav-item active mt-2">
+                        <form class="search-form d-flex mb-lg-0">
+                            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark input-sm " type="submit">Search</button>
+                          </form>
+                    </li>
+                    <li class="nav-item active mt-0 mx-0" >
+                        <div class="click nav-item d-flex ms-auto mb-2 mb-lg-0 ">
+                            <div class="login-btn mx-2 border rounded-3 ">
+                                <a href="login.html" class="btn btn-light btn-1 ">Log in</a>
+                            </div>
+                            <div class="signup-btn border rounded-3 ">
+                                <a href="signup.html" class="btn btn-register-1
+                                    btn-dark btn-2">Sign up</a>
+                            </div>
+                        </div> 
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -75,7 +86,8 @@
                             <form>
                                 <div class="form-row">
                                     <div class="col-lg-7">
-                                        <button type="button" class="btn2 mt-4
+                                        <button type="button" onclick="window.location.href='https://fb.com';"
+                                        class="btn2 mt-4
                                             mb-5"> <i class="fa-brands
                                                 fa-facebook-f"></i> Log
                                             in with Facebook </button>
@@ -83,7 +95,7 @@
                                 </div>
                                 <div class="form-row">
                                     <div class="col-lg-7">
-                                        <button type="button" class="btn3"> <i
+                                        <button type="button" class="btn3"onclick="window.location.href='https://gmail.com';"> <i
                                                 class="fa-brands
                                                 fa-google-plus-g"></i> Log
                                             in Google </button>
