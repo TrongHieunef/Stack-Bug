@@ -90,7 +90,7 @@
     border: 1px black solid;
 }
 .search-form{
-    width: 650px;
+    width: 100%;
 }
 .btn-1:hover{
     color:white;
@@ -130,3 +130,15 @@
 .tagged-text{
     font-size: small;
 }
+form {
+    margin: 5px
+  }
+  input{
+    height: 30px;
+  }
+  i {
+    position: relative;
+    right: -1px;
+    z-index: 2
+  }
+
