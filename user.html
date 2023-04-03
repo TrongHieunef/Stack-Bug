@@ -103,10 +103,10 @@
             <a class="link text-dark" href="ask.html">Question</a>
           </li>
           <li class="nav-item overflow-auto mt-2 mx-4">
-            <a class="link text-dark" href="tag.html">Tags</a>
+            <a class="link text-dark" href="user.html">Users</a>
           </li>
           <li class="nav-item overflow-auto mt-2 mx-4">
-            <a class="link text-dark" href="user.html">Users</a>
+            <a class="link text-dark" href="tag.html">Tags</a>
           </li>
         </ul>
       </div>
@@ -167,12 +167,12 @@
                                   rows="7" class="form-control"></textarea>
                     </div>
                 </div>
-                <div class="form-row">
+                <div class="form-row d-flex">
                     <div class="form-group col-md-3">
                         <button type="submit" name="submit"
                                 class="btn btn-dark form-control">Save Profile</button>
                     </div>
-                    <div class="form-group col-md-2 align-self-center btn btn-dark mt-3">
+                    <div class="form-group col-md-2 align-self-center fw-bold ms-3">
                         <a th:href="${'/users/' + user.id}">cancel</a>
                     </div>
                 </div>
